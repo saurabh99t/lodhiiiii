@@ -1,0 +1,47 @@
+
+  .outer-section-counter {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    border-radius: 10px;
+    width: 100%;
+ 
+  }
+  
+  .inner-section-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+  .icon-counter {
+    font-size: 40px;
+    color: #3498db;
+  }
+
+  .icon-counter img {
+    height: 80px;
+  }
+  
+  .counter-counter {
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  @keyframes counterAnimation {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
+  .counter-counter.animated {
+    animation: counterAnimation 1s alternate infinite;
+  }

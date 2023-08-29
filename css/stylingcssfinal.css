@@ -1,0 +1,72 @@
+
+
+
+.section-1 h2  {
+
+    font-size: 50px;
+    margin-left: 50px;
+    color: black;
+}
+
+
+.section-1 p {
+    color: black;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+/* about us */
+
+.inner-section1 h1{
+font-size: 40px;
+width: 80%;
+line-height: 50px;
+}
+
+.about-us {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+/* about us */
+
+
+
+/* carousel Heros section */
+
+.prev-button , .next-button {
+
+padding: 10px;
+}
+
+
+/* carousel Heros section */
+
+
+
+
+
+/* banner css  */
+
+.banner {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff; /* Change this to your desired banner background color */
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .banner {
+      max-width: 90%;
+    }
+  }
+
+
+  /* banner css  */

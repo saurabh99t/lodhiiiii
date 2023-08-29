@@ -1,0 +1,36 @@
+  /* Add your responsive CSS styles here */
+  .outer-section-x2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: auto;
+  }
+
+  .inner-section {
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    /* margin: 10px; */
+    flex: 1;
+  }
+
+  .inner-section1 {
+    /* background-color: #f0f0f0; */
+    color: black;
+  }
+
+  .inner-section2 {
+    /* background-color: #e0e0e0; */
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+  @media (max-width:768px ){
+    .outer-section-x2 {
+      flex-direction: column;
+    }
+  }
